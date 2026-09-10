@@ -10,8 +10,6 @@ appearance adaptation can change local intensity and texture but cannot redraw t
 the mask specifies. Inference needs only a mask, so masks derived from fetal MRI —
 normal or abnormal — can condition US synthesis without paired MRI–US data.
 
-See the paper for the full method; each module docstring cites its equations.
-
 ![Example A](assets/ExampleA_axial_sweep.gif)
 ![Example B](assets/ExampleB_axial_sweep.gif)
 ![Example C](assets/ExampleC_axial_sweep.gif)
