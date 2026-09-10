@@ -7,7 +7,7 @@ stages, trained on different data and in different domains:
 
 Stage 1 is frozen while Stage 2 trains, and Stage 2 may only apply a bounded residual, so
 appearance adaptation can change local intensity and texture but cannot redraw the anatomy
-the mask specifies. Inference needs only a mask, so masks derived from fetal **MRI** —
+the mask specifies. Inference needs only a mask, so masks derived from fetal MRI —
 normal or abnormal — can condition US synthesis without paired MRI–US data.
 
 See the paper for the full method; each module docstring cites its equations.
